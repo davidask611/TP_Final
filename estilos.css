@@ -1,0 +1,153 @@
+/* Reinicio de márgenes y bordes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+  padding: 0 20px;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Sección de productos */
+#productos {
+  margin: 40px 0;
+}
+
+#productos h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #007bff;
+}
+
+.grid-zapatillas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.tarjeta {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.tarjeta img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.tarjeta h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+.tarjeta button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tarjeta button:hover {
+  background-color: #0056b3;
+}
+
+/* Sección de contacto para email */
+#contacto {
+  margin: 40px 0;
+}
+
+#contacto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #007bff;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  margin-top: 40px;
+}
